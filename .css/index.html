@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: serif;
+        }
+        /*fundo da pagina*/
+        body{
+            display: 100vh;
+            height: 100vh;
+            background: linear-gradient(100deg, rgb(8, 58, 99),  aqua, rgb(17, 40, 48)) ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login_container{
+            background-color: rgb(103, 245, 255);
+            padding: 30px ;
+            border-radius: 14px;
+            box-shadow: 5px 10px 5px;
+            text-align: center;
+            width: 240px;
+        }
+        .login_container h2{
+            height: 35px;
+        }
+        .login_container input{
+            width: 100%
+        }
+        .login_container button{
+            width: 100%;
+            background-color: rgb(0, 247, 255);
+            border-color: rgb(94, 250, 255);
+            border-radius: 4px;
+        }
+        .login_container br{
+            margin: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="login_container">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="usuario" required> <br>
+            <input type="password" placeholder="usuario" required> <br>
+            <button type="submit"> Entre </button>
+        </form>
+        <p>Esqueci minha senha</p>
+    </div>
+</body>
+</html>
