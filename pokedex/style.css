@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(to bottom, rgb(255, 74, 74), yellow);
+    background: linear-gradient(to bottom, rgb(94, 25, 255), rgb(0, 255, 255));
     font-family: 'Press Start 2P', cursive;
     display: flex;
     justify-content: center;
@@ -17,9 +17,9 @@ body{
 
 .container{
     background-color: white;
-    border: 3px solid #333;
+    border: 3px solid #dac258;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgb(73, 73, 73);
+    box-shadow: 0 0 20px rgb(221, 174, 72);
     padding: 30px;
     width: 300px;
     text-align: center;
@@ -59,8 +59,44 @@ body{
     margin-top: 8px;
 }
 
+.area-buscar{
+    margin-top: 20px;
+}
 
+.area-buscar input{
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid whitesmoke;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
 
+.area-buscar button{
+    padding: 8px 12px;
+    background: linear-gradient(to top, rgb(0, 47, 255), rgb(0, 238, 255));
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:  'Press Start 2P', cursive;
+    font-weight: bold;
+    transform: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.area-buscar button:hover{
+    background: linear-gradient(to bottom, rgb(51, 255, 0), rgb(0, 255, 42));
+    transform: scale(1.05s);
+}
+.chip-tipo{
+    display: inline-block;
+    margin: 5px;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+
+}
 
 .press-start-2p-regular {
     font-family: "Press Start 2P", system-ui;

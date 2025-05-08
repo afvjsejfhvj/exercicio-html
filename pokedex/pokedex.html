@@ -24,5 +24,16 @@
             <button id="botao-buscar">Procurar</button>
         </div>
     </div>
-</body>
+</body> 
+<script >
+
+const botaoBuscar = document.getElementById('botao-buscar');
+const campoEntrada = document.getElementById('entrada')
+
+botaoBuscar.addEventListener("click", async() => {
+    const buscar = campoEntrada.value.toLowerCase().trim();
+    if(!buscar) return;
+})
+
+</script>
 </html>
