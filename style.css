@@ -1,0 +1,136 @@
+
+body{
+    width: 300px;
+    height: 100px;
+    margin: 70px;
+}
+.botao{
+    background-color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transform: background-color 0.3s ease, transform 0.3s ease;
+}
+.botao:hover{
+    background:  rgb(17, 85, 0);
+    color: white;
+    transform: scale(1.05s);
+}
+
+
+
+.caixa{
+width: 300px;
+height: 100px;
+border: 2px, solid;
+border-color: black;
+padding: 20px;
+margin: 30px;
+}
+
+
+
+
+.card{
+    background-color: white;
+    border: 2px, solid;
+    border-color: rgb(179, 179, 179);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 10px 10px teal;
+}
+.card button{
+    background-color: teal;
+    border-radius: 7px;
+    color: white;
+    border-color: white;
+}
+.card button:hover{
+    background-color: rgb(30, 199, 199);
+    color: black;
+    transform: scale(1.05s);
+}
+
+
+
+
+.menu{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    margin: 30px;
+    padding:10px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+.menu a:hover{
+    margin: 10px;
+    padding: 4px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(30, 199, 199);
+    color: black;
+    transform: scale(1.05s);
+}
+
+.formulario{
+    display: grid;
+    width: 300px;
+    height: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.formulario .button{
+
+align-items: center; 
+background-color: aquamarine;
+grid-column: span 2; /* utiliza dois espaçõs */
+}
+
+.lista-tarefas {
+    list-style: none; 
+    padding-left: 0; 
+}
+
+.lista-tarefas li::before {
+    content: "✓"; 
+    color: green; 
+    display: inline-block; 
+    width: 1.5em; 
+    text-align: center; 
+}
+
+.tabela-notas {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+
+  .tabela-notas th,
+  .tabela-notas td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .tabela-notas thead {
+    background-color: #e0e0e0;
+  }
+
+  .tabela-notas tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+
+  body.claro {
+    background-color: white;
+    color: black;
+  }
+
+  body.escuro {
+    background-color: black;
+    color: white;
+  }
