@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade css</title>
+</head>
+<body>
+
+    <button class="botao">atividade 1</button>  
+
+    <div class="caixa">
+        atividade 2
+    </div>
+
+    <div class="card">
+        <h2>Mateus Muller</h2>
+        <p>atividade 3</p>
+        <button>click aqui</button>
+    </div>
+      
+    <nav class="menu">
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </nav>
+      
+    <form class="formulario">
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Telefone">
+        <input type="text" placeholder="Cidade">
+        <button class="button">Enviar</button>
+    </form>
+      
+    <ul class="lista-tarefas">
+        <li>Estudar CSS</li>
+        <li>Praticar exercícios</li>
+        <li>Fazer um projeto</li>
+    </ul>
+      
+    
+
+    <table class="tabela-notas">
+      <thead>
+        <tr>
+          <th>Aluno</th>
+          <th>Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ana</td>
+          <td>9.5</td>
+        </tr>
+        <tr>
+          <td>Bruno</td>
+          <td>8.0</td>
+        </tr>
+        <tr>
+          <td>Clara</td>
+          <td>7.8</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button id="modoClaro">Modo Claro</button>
+    <button id="modoEscuro">Modo Escuro</button>
+
+</body>
+
+<script>
+  const btnClaro = document.getElementById('modoClaro');
+  const btnEscuro = document.getElementById('modoEscuro');
+
+  btnClaro.addEventListener('click', () => {
+    document.body.classList.add('claro');
+    document.body.classList.remove('escuro');
+  });
+
+  btnEscuro.addEventListener('click', () => {
+    document.body.classList.add('escuro');
+    document.body.classList.remove('claro');
+  });
+</script>
+
+<link rel="stylesheet" href="style.css">
+</html>
